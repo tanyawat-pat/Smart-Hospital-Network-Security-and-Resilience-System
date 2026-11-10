@@ -1,0 +1,33 @@
+
+{
+  "routers": [
+    {
+      "name": "R1",
+      "interfaces": [
+        {"interface": "G0/0.10", "ip": "192.168.10.1", "status": "UP"},
+        {"interface": "G0/0.20", "ip": "192.168.20.1", "status": "UP"},
+        {"interface": "G0/0.30", "ip": "192.168.30.1", "status": "UP"},
+        {"interface": "G0/0.40", "ip": "192.168.40.1", "status": "UP"},
+        {"interface": "G0/0.99", "ip": "192.168.99.1", "status": "UP"},
+        {"interface": "G0/1", "ip": "10.0.0.1", "status": "UP"},
+        {"interface": "G0/2", "ip": "10.0.0.5", "status": "UP"}
+      ]
+    },
+    {
+      "name": "R2",
+      "interfaces": [
+        {"interface": "G0/0", "ip": "10.0.0.2", "status": "UP"},
+        {"interface": "G0/1", "ip": "10.0.0.9", "status": "UP"},
+        {"interface": "G0/2", "ip": "unassigned", "status": "DOWN"}
+      ]
+    },
+    {
+      "name": "R3",
+      "interfaces": [
+        {"interface": "G0/0", "ip": "10.0.0.6", "status": "UP"},
+        {"interface": "G0/1", "ip": "10.0.0.10", "status": "UP"},
+        {"interface": "G0/2", "ip": "192.168.50.1", "status": "UP"}
+      ]
+    }
+  ]
+}

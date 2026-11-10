@@ -1,0 +1,9 @@
+{
+    "project": "Smart Hospital Network Monitoring",
+    "time": "2026-11-07 16:46:23",
+    "controller_status": 201,
+    "network_device_status": 200,
+    "network_device_data": {
+        "version": "1.0"
+    }
+}
